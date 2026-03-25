@@ -1,10 +1,10 @@
-# Optimización Cuántica de Hiperparámetros (HPO) - Estado del Arte (SOTA) ⚛️🧠
+# Optimización Cuántica de Hiperparámetros (HPO) - Estado del Arte (SOTA) 
 
 Este repositorio contiene el código fuente, los datos empíricos y la bibliografía de mi Trabajo de Fin de Grado (TFG) en Inteligencia Artificial. El objetivo principal de este proyecto es realizar una revisión exhaustiva y experimental del estado del arte (SOTA) en la **Optimización Cuántica de Hiperparámetros (HPO)** para modelos de Machine Learning. 
 
 Para este estudio, **he implementado y evaluado 50 algoritmos** diferentes (tanto puramente cuánticos como *quantum-inspired*), contrastando su rendimiento empírico frente a *baselines* clásicos de alta solvencia como la Optimización Bayesiana y los modelos Random Forest.
 
-## 🗂 Estructura del Repositorio
+##  Estructura del Repositorio
 
 He diseñado una arquitectura de software modular para garantizar la reproducibilidad y el aislamiento de cada experimento.
 
@@ -24,7 +24,7 @@ He diseñado una arquitectura de software modular para garantizar la reproducibi
  ┗ 📜 README.md
 ```
 
-## 📊 Resultados Destacados
+##  Resultados Destacados
 
 El estudio evalúa el rendimiento computacional, la precisión de los hiperparámetros y la viabilidad física (era NISQ) de cada estrategia. A continuación, se muestra un extracto comparativo de los mejores enfoques cuánticos frente a los *baselines* clásicos. **Para consultar la tabla con los 50 algoritmos evaluados en detalle, revisa el archivo `resultados/Algoritmos.xlsx`.**
 
@@ -38,7 +38,7 @@ El estudio evalúa el rendimiento computacional, la precisión de los hiperpará
 
 > *Nota: Se observa cómo las metaheurísticas poblacionales cuánticas (QACO, QPSO) logran superar el techo de precisión de los métodos clásicos reduciendo el tiempo de exploración de horas a apenas unos minutos, ejecutándose en hardware clásico sin sufrir la penalización de puertas CNOT impuesta por las arquitecturas cuánticas actuales.*
 
-## 🧬 Taxonomía Algorítmica Implementada
+##  Taxonomía Algorítmica Implementada
 
 He clasificado y programado las estrategias SOTA en **5 grandes familias** de la computación cuántica actual:
 
@@ -59,7 +59,7 @@ He clasificado y programado las estrategias SOTA en **5 grandes familias** de la
    * Inteligencia de Enjambre (QPSO, QACO).
    * Algoritmos Evolutivos Cuánticos (QGA).
 
-## ⚙️ Metodología y Ejecución
+##  Metodología y Ejecución
 
 La metodología de evaluación sigue condiciones de contorno estrictamente idénticas para todos los algoritmos:
 * **Espacio de Búsqueda:** 2^15 combinaciones (dataset de 15 qubits).
@@ -74,6 +74,6 @@ python runner_experimentos.py
 
 *Nota: Todas las simulaciones cuánticas se ejecutan en simuladores de estado ideal (sin ruido) utilizando la librería Qiskit de IBM.*
 
-## 📚 Bibliografía
+##  Bibliografía
 
 Debido a la extensa magnitud del soporte documental necesario para esta investigación, la bibliografía no se detalla estáticamente en el código. He compilado los **130 estudios científicos base**, publicados en su mayoría entre 2024 y marzo de 2026, en el archivo estructurado `lecturas/bibliografia.bib`. Este archivo permite su importación directa a gestores como Zotero o Mendeley para auditar la trazabilidad del estudio SOTA.
