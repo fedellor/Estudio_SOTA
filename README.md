@@ -1,4 +1,4 @@
-```markdown
+
 # Optimización Cuántica de Hiperparámetros (HPO) - Estado del Arte (SOTA) ⚛️🧠
 
 Este repositorio contiene el código fuente, los datos empíricos y la bibliografía de mi Trabajo de Fin de Grado (TFG) en Inteligencia Artificial. El objetivo principal de este proyecto es realizar una revisión exhaustiva y experimental del estado del arte (SOTA) en la **Optimización Cuántica de Hiperparámetros (HPO)** para modelos de Machine Learning. 
@@ -9,7 +9,7 @@ Para este estudio, **he implementado y evaluado 50 algoritmos** diferentes (tant
 
 He diseñado una arquitectura de software modular para garantizar la reproducibilidad y el aislamiento de cada experimento.
 
-```text
+
 📦 Raíz del Proyecto
  ┣ 📂 code/                    # Núcleo de la investigación algorítmica
  ┃ ┣ 📜 runner_experimentos.py # Orquestador central y benchmarking unificado
@@ -23,7 +23,7 @@ He diseñado una arquitectura de software modular para garantizar la reproducibi
  ┣ 📂 lecturas/                # Documentación de respaldo
  ┃ ┗ 📜 bibliografia.bib       # Archivo BibTeX con las 130 referencias del SOTA (2024-2026)
  ┗ 📜 README.md
-```
+
 
 ## 📊 Resultados Destacados
 
